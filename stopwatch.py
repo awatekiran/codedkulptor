@@ -1,4 +1,6 @@
 # template for "Stopwatch: The Game"
+# watch implementation at http://www.codeskulptor.org/#user13_q6z6SF0v3B_0.py
+
 import simplegui  
 # define global variables
 a =0 
@@ -7,7 +9,7 @@ c = 0
 d = 0
 time = 0
 #time = str(0)+":"+str(b)+str(c)+"."+str(d)
-interval = 0.1
+interval = 100
 count1 = 0
 count2 = 0
 
