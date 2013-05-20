@@ -1,3 +1,5 @@
+# watch implementation at http://www.codeskulptor.org/#user13_nS0InDUstk_0.py
+
 import simplegui
 import math
 
