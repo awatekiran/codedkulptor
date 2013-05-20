@@ -1,3 +1,5 @@
+# watch implementation at http://www.codeskulptor.org/#user13_mqfMZKwUzT_0.py
+
 import simplegui
 current_key = ' '
 
@@ -19,5 +21,6 @@ frame = simplegui.create_frame("Test keyboard", 200, 200)
 frame.set_draw_handler(draw_handler)
 frame.set_keydown_handler(keydown)
 frame.set_keyup_handler(keyup)
+frame.add_label("Press any key between A-Z/ 0-9", 300)
 
 frame.start()
