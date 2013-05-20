@@ -1,3 +1,5 @@
+# watch implementation at http://www.codeskulptor.org/#user13_m98NV5Ucrr_0.py
+
 import simplegui
 width = 500
 height = 500
