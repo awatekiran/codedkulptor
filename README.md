@@ -1,4 +1,4 @@
 codedkulptor
 ============
 
-python course files
+python fun scripts
