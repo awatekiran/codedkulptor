@@ -1,5 +1,5 @@
 # program template for Spaceship
-# Watch implementation at http://www.codeskulptor.org/#user16_F19jFOPss0P0y2J.py
+#Watch implementation at http://www.codeskulptor.org/#user16_5kXore5sSwJniPx.py
 import simplegui
 import math
 import random
@@ -130,9 +130,9 @@ class Ship:
     def shoot(self):
         global a_missile
         new = angle_to_vector(self.angle)
-        self.vel[0] += new[0]
-        self.vel[1] += new[1]
-        a_missile = Sprite([self.pos[0]+self.radius*new[0], self.pos[1]+self.radius*new[1]], self.vel, 0, 0, missile_image, missile_info, missile_sound)
+        missile_vel = [self.vel[0] + 10*new[0], self.vel[1]+ 10*new[1]]
+#        self.vel[1] += new[1]
+        a_missile = Sprite([self.pos[0]+self.radius*new[0], self.pos[1]+self.radius*new[1]], missile_vel, 0, 0, missile_image, missile_info, missile_sound)
         
         
         
